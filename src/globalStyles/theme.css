@@ -1,0 +1,78 @@
+
+:root {
+    /* ----------------------------------------------------
+    1. FONTES
+    ---------------------------------------------------- */
+    --font-family-titulo: 'Oswald', sans-serif;
+    --font-family-subtitulo: 'Poppins', sans-serif;
+    --font-family-texto: 'Roboto', sans-serif;
+    
+    /* ----------------------------------------------------
+    2. CORES DE TEXTO
+    ---------------------------------------------------- */
+    --color-text-titulo: #1A1A1A;     
+    --color-text-subtitulo: #333333;  
+    --color-text-corpo: #5C5C5C;      
+    --color-text-suave: #888888;      
+    
+    /* ----------------------------------------------------
+    3. CORES DE FUNDO & ESTRUTURA
+    ---------------------------------------------------- */
+    --color-bg-light: #FFFFFF;       
+    --color-bg-dark: #F5F5F5;         
+    --color-bg-card: #FFFFFF;         
+    --color-border-dividers: #E0E0E0; 
+
+    /* ----------------------------------------------------
+    4. CORES DE AÇÃO & DESTAQUE
+    ---------------------------------------------------- */
+    --color-primary: #007BFF;         
+    --color-secondary: #FFC107;       
+    --color-cta: var(--color-primary);
+    --color-hover-link: #0056b3;      
+    
+    /* ----------------------------------------------------
+    5. DETALHES, SOMBRAS & OUTROS
+    ---------------------------------------------------- */
+    --color-detail-enfeite: #B0C4DE;  
+    --box-shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+    /* ----------------------------------------------------
+    6. PROPRIEDADES DE TRANSIÇÃO
+    ---------------------------------------------------- */
+    --transition-duration: 0.3s;
+}
+
+
+body.dark-mode, 
+[data-theme="dark"] {
+    /* ----------------------------------------------------
+    2. CORES DE TEXTO INVERTIDAS
+    ---------------------------------------------------- */
+    --color-text-titulo: #FAFAFA;     
+    --color-text-subtitulo: #DDDDDD;  
+    --color-text-corpo: #B0B0B0;      
+    --color-text-suave: #888888;      
+    
+    /* ----------------------------------------------------
+    3. CORES DE FUNDO INVERTIDAS
+    ---------------------------------------------------- */
+    --color-bg-light: #1A1A1A;        
+    --color-bg-dark: #2C2C2C;         
+    --color-bg-card: #3C3C3C;         
+    --color-border-dividers: #444444; 
+
+    /* ----------------------------------------------------
+    4. CORES DE AÇÃO & DESTAQUE
+    ---------------------------------------------------- */
+    --color-primary: #5BC0F8;         
+    --color-secondary: #FFD750;       
+    --color-cta: var(--color-primary);
+    --color-hover-link: #40A4E2;     
+
+    /* ----------------------------------------------------
+    5. DETALHES, SOMBRAS & OUTROS
+    ---------------------------------------------------- */
+    --color-detail-enfeite: #4A6384;  
+    --box-shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.4); 
+}

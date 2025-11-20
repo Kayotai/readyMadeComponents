@@ -1,0 +1,93 @@
+
+/* Header container */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--color-bg-dark);
+  z-index: 30; 
+}
+
+/* logo container */
+.containerLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navDesktop {
+    margin-right: 2em;
+}
+
+.containerLinksDesktop {
+    display: flex;
+    gap: 4em;
+}
+
+.containerLinksDesktop > li > a {
+    font-weight: 900;
+    font-size: 1.1em;
+    color: var(--color-primary);
+    transition: all .4s ease;
+}
+
+.containerLinks > li > a  {
+  font-size: 1.2em;
+  color: var(--color-primary);
+  font-weight: 900;
+  transition: all .4s ease;
+}
+
+.toggleMenu {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  display: none;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;
+  max-width: 360px;
+  height: 100vh;
+  background-color: var(--color-bg-card);
+  box-shadow: -5px 0 15px rgba(0,0,0,0.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  padding: 2rem;
+}
+
+.containerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.containerLinksDesktop > li > a, .containerLinks > li > a {
+    display: inline-block;
+}
+
+.containerLinksDesktop > li > a:hover, .containerLinks > li > a:hover {
+    transform: scale(1.1) translateY(-2px);
+    color: var(--color-hover-link);
+}
+
+
+@media screen and (max-width: 730px) {
+    .navDesktop {
+        display: none;
+    }
+
+    .toggleMenu {
+        display: flex;
+    }
+}
