@@ -66,7 +66,7 @@ export default function HeaderComum(): JSX.Element {
   return (
     <header className={style.header}>
       <a href="/" className={style.containerLogo}>
-        <img src="/logo.png" alt="Logo" style={{ height: 40 }} />
+        <h1>Sua Logo</h1>
       </a>
 
 

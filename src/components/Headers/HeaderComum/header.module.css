@@ -10,6 +10,11 @@
   z-index: 30; 
 }
 
+h1 {
+  color: var(--color-primary);
+  font-size: 2em;
+}
+
 /* logo container */
 .containerLogo {
   display: flex;
